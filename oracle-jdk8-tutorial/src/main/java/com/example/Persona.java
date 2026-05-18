@@ -67,11 +67,15 @@ public class Persona extends Object {
 	int totalCOCHES = 2;
 	genero genero;
 
+	// el modificador final impide que se pueda cambiar el valor de una variable,
+	// por lo cual se convierte
+	// una variabble a una constante
+	
+	static final String PAIS = "ESPAÑA";
+
 	// Costructor sin parametros, que es el constructor por defecto, que se pierde
 	// en el momento que creamos otro constructor, pero que se puede crear
 	// cuando querramos
-	
-	
 
 	public Persona(String nombre, String primerApellido, double estatura) {
 		super();
