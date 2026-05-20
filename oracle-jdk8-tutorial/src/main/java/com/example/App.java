@@ -81,6 +81,26 @@ public class App {
 		System.out.println(new App().variable1);
 		
 		
+		/* Demostrando el modificador de accesprivate*/
+		
+		//System.out.println(persona1.primerApellido); 
+		
+		
+		Persona persona2 = new Persona();
+		
+		persona2.getPrimerApellido();
+		
+		System.out.println(persona2.getPrimerApellido());
+		
+		 
+		// Cambiar el valor de la variable primerApellido, que es privada
+
+		persona2.setPrimerApellido("Machado");
+
+		// Comprobando que el valor de la variable primerApellido ha sido cambiado
+		System.out.println(persona2.getPrimerApellido());
+		
+		
 
 	}
 
