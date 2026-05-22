@@ -100,7 +100,7 @@ public class App {
 		// Comprobando que el valor de la variable primerApellido ha sido cambiado
 		System.out.println(persona2.getPrimerApellido());
 		
-		
+		app.variable1 = 10;
 
 	}
 
